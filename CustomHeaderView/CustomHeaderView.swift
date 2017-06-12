@@ -43,5 +43,7 @@ class CustomHeaderView: UIView {
         view.frame = bounds
         view.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.addSubview(view);
+        
+        print("Try it for git..")
     }
 }
